@@ -11,3 +11,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  color: #345;
+}
+
+.nav{
+    background: #345;
+    width: 100vw;
+    text-align: center;
+}
+
+.navigation {
+  margin: 5px;
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.nav-selected{
+  color: darkorange;
+}
+
+.main{
+  text-align: center;
+}
+
+#main-img{
+  width: 100%;
+}
+
+.posts{
+  background-color:  rgb(78, 98, 117);
+}
+
+.Post{
+  background-color: #345;
+  width: 550px;
+  padding: 5px;
+  margin: 1px;
+  display: table;
+  white-space: pre-line;
+  margin-left: auto;
+  margin-right: auto;
+  border: rgb(156, 179, 221) 1px solid;
+}
+
+.avatar{
+  border-radius: 300px;
+  width:10%;
+  float: left;
+  padding: 5px;
+}
+
+.postContent{
+  width:84%;
+  float: left;
+  color: antiquewhite;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.photoContent{
+  width:95%;
+  border-radius: 10px;
+}
+
+.name{
+  font-weight: bold;
+  display: inline;
+}
+
+.nickName{
+  display: inline;
+  color: rgba(250, 235, 215, 0.692);
+}
+
+.date{
+  display: inline;
+  color: rgba(250, 235, 215, 0.692);
+}
+
+.photos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color:  rgb(78, 98, 117);
+  height: 100vw;
+}
+
+.photo-wrapper{
+  width: 33%;
+}
+
+.photo{
+  display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: rgb(78, 98, 117);
+  height: 100vh;
+}
+
+.contact {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(122,122,122,0.5);
+  margin: auto;
+  display: table;
+  width: 300px;
+  box-shadow: 0.2em 0.2em 2px rgb(122,122,122,0.5);
+}
+
+.gender{
+  width: 20%;
+  float: left;
+  margin: 5px;
+}
+
+.contact-info{
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  float: left;
+  font-weight: bold;
+}
+
+.number{
+  font-weight: normal;
+  color: rgb(102, 102, 102);
+}
+
+.single-contact{
+  
+}
